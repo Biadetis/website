@@ -7,8 +7,15 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   scroll-behavior: smooth;
+  max-width: 100%;
+  max-height: 100%;
+  /* background-color: rgb(254, 246, 235); */
 }
 
 nav {
@@ -19,6 +26,7 @@ nav {
   padding-bottom: 1rem !important;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   font-size: 1.05em;
+  z-index: 100;
 }
 
 .Portfolio-Text {
@@ -26,6 +34,10 @@ nav {
   padding: 0.2rem 0.2rem;
   font-size: larger;
   font-family: "playfair Display", serif;
+}
+
+.übermich-text {
+  max-width: 100%;
 }
 
 a {
@@ -46,7 +58,9 @@ a:hover {
 .container {
   padding: 0 1rem;
 }
-
+.container-nav {
+  padding: 0 1rem;
+}
 .Calc {
   font-size: 1rem;
   margin-top: 1rem;
@@ -55,6 +69,14 @@ a:hover {
   flex-direction: column-reverse;
   font-family: "Lora", serif;
   color: rgb(0, 37, 148);
+}
+
+.calc-github {
+  position: absolute;
+  z-index: 2000;
+  margin-bottom: 13%;
+  bottom: 0;
+  color: rgb(0, 166, 255);
 }
 
 img[alt="Calculator-Terminal"] {
@@ -94,8 +116,12 @@ img[alt="Image-Ui"] {
   object-fit: cover;
 }
 
+.Github-Calc {
+  position: relative;
+}
+
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: #e1e1e1;
   width: 100%;
@@ -120,10 +146,21 @@ img[alt="Image-Ui"] {
 
   img[alt="Image-Ui"] {
     max-width: 60%;
-    max-height: 40%;
+    margin-bottom: 3rem;
   }
 
   .Calc {
     flex-direction: column-reverse;
+  }
+
+  .übermich-text {
+    max-width: 75%;
+  }
+
+  .calc-github {
+    position: absolute;
+    z-index: 2000;
+    right: 30%;
+    margin-bottom: 10%;
   }
 }
