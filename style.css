@@ -15,25 +15,21 @@ body {
   scroll-behavior: smooth;
   max-width: 100%;
   max-height: 100%;
-  /* background-color: red; */
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   font-size: 1.05em;
   z-index: 100;
 }
 
-.Portfolio-Text {
-  border: 2px double rgba(184, 37, 37, 0.522);
-  padding: 0.2rem 0.2rem;
-  font-size: larger;
-  font-family: "playfair Display", serif;
+.logo {
+  height: 60px;
 }
 
 .übermich-text {
@@ -58,9 +54,11 @@ a:hover {
 .container {
   padding: 0 1rem;
 }
+
 .container-nav {
   padding: 0 1rem;
 }
+
 .Calc {
   font-size: 1rem;
   margin-top: 1rem;
