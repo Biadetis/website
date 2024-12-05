@@ -21,8 +21,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   font-size: 1.05em;
   z-index: 100;
@@ -57,6 +57,10 @@ a:hover {
 
 .container-nav {
   padding: 0 1rem;
+}
+
+.übermich-text {
+  font-family: "Brush Script MT", cursive;
 }
 
 .Calc {
@@ -153,6 +157,7 @@ img[alt="Image-Ui"] {
 
   .übermich-text {
     max-width: 75%;
+    font-size: 1.3em;
   }
 
   .calc-github {
