@@ -165,5 +165,6 @@ img[alt="Image-Ui"] {
     z-index: 2000;
     right: 30%;
     margin-bottom: 10%;
+    font-size: larger;
   }
 }
