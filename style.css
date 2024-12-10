@@ -64,12 +64,11 @@ a:hover {
 }
 
 .Calc {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 1rem;
   gap: 1rem;
   display: flex;
-  flex-direction: column-reverse;
-  font-family: "Lora", serif;
+  font-family: "Brush Script MT", sans-serif;
   color: rgb(0, 37, 148);
 }
 
