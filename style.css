@@ -98,6 +98,81 @@ img[alt="Image-Ui"] {
   gap: 2.5rem;
 }
 
+.project-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-width: 100%;
+}
+
+.project-card .card-body {
+  padding: 20px;
+}
+
+.project-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+  line-height: 1.6;
+}
+
+.project-card .button-group .button {
+  border-radius: 20px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.project-card .button-outline-secondary {
+  border-radius: 20px;
+  padding: 0.3rem;
+}
+
+.project-card .button-group .button-outline-secondary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.project-card .button-group .button-outline-secondary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.project-card .button-group .button-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.project-card .button-group .button-primary:hover {
+  background-color: #0056b3;
+  border-color: #004e98;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
 .hero-text {
   display: flex;
   flex-direction: column;
